@@ -1,0 +1,24 @@
+p {
+	margin-left: 100px;
+}
+
+.topic {
+	margin-left: 100px;
+	font-weight: bold;
+}
+
+.topictext {
+	font-weight: normal;
+}
+
+a:visited {
+	color: purple;
+}
+
+a:hover {
+	color: orange;
+}
+
+.first {
+	margin-top: 20px;
+}

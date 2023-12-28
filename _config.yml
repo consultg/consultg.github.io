@@ -1,0 +1,37 @@
+title: ""
+author: ""
+description: ""
+permalink: /:title/
+lang: "en"
+excerpt_separator: "\n\n\n"
+date_format: "%B %d, %Y"
+
+# remote_theme: niklasbuschmann/contrast@v2.11
+  
+# Layout
+
+show_excerpts: false        # show article excerpts on the home page
+show_frame: true           # adds a gray frame to the site
+show_sidebar: false        # show a sidebar instead of the usual header
+minimal: false             # use a dark header
+
+# Menu
+
+navigation:                # accepts {file, title, url, icon, sidebaricon}
+  - {file: "index.html",title: "home", sidebaricon: "home"}
+#   - {file: "./test.pdf", title: "test", sidebaricon: "home"}
+#   - {file: "README.md"}
+
+external:                  # shows a footer with social links - for available icons see fontawesome.com/icons
+  - {icon: envelope, url: "mailto:consultgx@gmail.com"}
+  - {icon: github, url: "https://github.com/consultg"}
+#   - {title: Twitter, icon: twitter , url: "https://github.com/gdspace/"}
+  - {icon: linkedin, url: "https://github.com/consultg"}
+
+comments:
+#  disqus_shortname: ""    # see https://disqus.com/
+#  isso_domain: ""         # see https://posativ.org/isso/
+
+plugins:
+ - jekyll-feed
+#  - jekyll-remote-theme
