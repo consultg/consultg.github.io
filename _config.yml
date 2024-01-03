@@ -19,13 +19,13 @@ minimal: false             # use a dark header
 
 navigation:                # accepts {file, title, url, icon, sidebaricon}
   - {file: "index.html",title: "home", sidebaricon: "home"}
-#   - {file: "./test.pdf", title: "test", sidebaricon: "home"}
+  - {url: "https://github.com/consultg", title: "Github", sidebaricon: "github"}
 #   - {file: "README.md"}
 
 external:                  # shows a footer with social links - for available icons see fontawesome.com/icons
   - {icon: envelope, url: "mailto:consultgx@gmail.com"}
   - {icon: github, url: "https://github.com/consultg"}
-#   - {title: Twitter, icon: twitter , url: "https://github.com/gdspace/"}
+#   - {title: Twitter, icon: twitter , url: "https://github.com/consultg""}
   - {icon: linkedin, url: "https://github.com/consultg"}
 
 comments:
